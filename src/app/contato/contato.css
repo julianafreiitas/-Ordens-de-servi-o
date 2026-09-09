@@ -1,0 +1,32 @@
+.espaco{
+    margin-top: 120px;
+    height: 700px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(41, 126, 34);
+    color: rgb(8, 8, 8);
+}
+
+.separar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+   
+}

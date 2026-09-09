@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .cima {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ffffff;
+      background: #ffffff;
+      width: 100%;
+      height: 70px;
+    }
+    
+    .cima h2 {
+      display: flex;
+      align-items: center;
+      color: #ffffff; 
+      margin-left: 15px;
+      font-family: "Bitcount Prop Single", system-ui;
+      transition: 0.9s ease-in-out;   
+    }   
+    
+    .cima h2:hover {
+      color: #ffffff;
+      transform: translateX(10px);
+      
+    }    
+    
+    .header-atalhos {
+      display: flex;
+      align-items: center;
+      margin-left: 35px;
+      margin-right: auto;
+      gap: 40px;
+    }
+    
+    .header-atalhos a{
+      text-decoration: none;
+      color: #949494;
+      font-size: 18px;
+      transition: 0.9s ease-in-out;
+      font-family: "National Park", sans-serif;
+    }
+    
+    .header-atalhos a:hover{
+      color: #747474;
+      display: flex;
+    
+    }
+    .header-icon {
+      width: 27px;
+      height: 27px;
+    }
+    
+    .header-ibtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap:10px
+    }
+    
+    .header-logo {
+    width: auto;
+    height: 37px;
+    margin-left: 100px;
+    }
+    
+    .btn-log-in {
+    width: 80px;
+    height: 40px;
+    background: #ffffff;  
+    color: #0b20dd;
+    border: 2px solid #0b20dd;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    
+    .free {
+      width: 150px;
+      height: 40px;
+      background: #0b20dd;
+      color: #ffffff;
+      border-radius: 2px; 
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
