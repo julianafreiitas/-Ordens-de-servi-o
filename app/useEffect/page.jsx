@@ -21,10 +21,11 @@ export default function Usuarios() {
                             return (
                                 
                                 <div className="informa" >
-                                    <h3>{user.fircstName}{" "}{user.lastName}</h3>
                                     <img src={user.image} />
+                                    <h3>{user.fircstName}{" "}{user.lastName}</h3>
                                     <p>E-mail: <b>{user.email}</b></p>
                                     <p>Sexualidade: {user.gender}</p>
+                                    <p>Idade: {user.age}</p>
                                 </div>
                               
                             )
