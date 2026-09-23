@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function contador() {
 
@@ -24,6 +24,8 @@ export default function contador() {
         }
         setContador(contador - 1)
     }
+
+    useEffect(()=> console.log(contador),[contador]);
 
     return (
         <>
