@@ -1,0 +1,58 @@
+body{
+    background: rgb(247, 235, 198);
+}
+
+h1{
+    text-align: center;
+    color: rgb(243, 206, 104);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h3{
+    margin-bottom:0px;
+}
+
+.botao{
+    text-decoration: none;
+    color: azure;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 187, 3);
+}
+
+.container-pizza{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 85vw;
+    margin: auto;
+} 
+
+
+
+.wrap-pizza {
+    border-radius: 25px;
+    /* padding: 10px; */
+    background-color: rgb(243, 206, 104);
+    color: white;
+    border: 1px solid rgb(253, 187, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+   border-radius:10px 10px 0px 0px ;
+   height: 500px;
+   width: 500px;
+}
+
+/* --------- */
+

@@ -74,7 +74,7 @@ body {
 
 
 
-.conteiner-filmes{
+/* .conteiner-filmes{
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -94,4 +94,4 @@ body {
 .wrap-filme img{
   height: auto;
   width: 300px;
-}
+} */

@@ -1,0 +1,41 @@
+body{
+    background: rgb(247, 235, 198);
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(243, 206, 104);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.base{
+    display: flex;
+    gap: 15px;
+}
+
+.img_receita{
+    height: 700px;
+    width: 700px;
+    margin-left: 300px;
+    padding-right: 50px;
+    background-color: rgb(243, 206, 104);
+    border-radius: 10px;
+
+}
+
+.informacoes{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(223, 176, 76);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
